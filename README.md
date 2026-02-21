@@ -3,7 +3,7 @@
 A futuristic, gesture-controlled virtual keyboard built using **Computer Vision**.  
 This project allows users to type in mid-air by tracking hand movements and detecting finger "clicks" (pinch gestures) using a webcam.
 
-Designed for high engagement on platforms like ** Instagram and some other social media**, featuring a holographic-style UI and real-time interactive feedback.
+Designed for high engagement on platforms like ** Instagram and some other social media  **, featuring a holographic-style UI and real-time interactive feedback.
 
 ---
 
