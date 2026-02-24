@@ -1,32 +1,57 @@
 # ⌨️ Air-Typing Keyboard (AI-Powered Virtual UI)
 
-A futuristic, gesture-controlled virtual keyboard built using **Computer Vision**.  
-This project allows users to type in mid-air by tracking hand movements and detecting finger "clicks" (pinch gestures) using a webcam.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.10-green)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10-orange)
+![Pygame](https://img.shields.io/badge/Pygame-UI-yellow)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-Designed for high engagement on platforms like **Instagram and some other social media**, featuring a holographic-style UI and real-time interactive feedback.
+---
+
+## 📌 Overview
+
+The **Air-Typing Keyboard** is an AI-powered virtual keyboard that enables users to type in mid-air using hand gestures.  
+It leverages **Computer Vision** and **Hand Tracking** to detect finger movements and simulate key presses without any physical keyboard.
+
+This project is designed for futuristic UI experiences and is highly suitable for **AR-style interactions** and **social media demonstrations**.
 
 ---
 
 ## ✨ Features
 
-- **Real-time Hand Tracking:** Tracks 21 hand landmarks using MediaPipe with high FPS  
-- **Gesture Recognition:** Detects "Pinch-to-Click" using Euclidean distance between thumb and index finger  
-- **Holographic UI:** Semi-transparent Pygame overlay for AR-like experience  
-- **Full Keyboard Support:** Includes A–Z, Spacebar, and Backspace  
-- **Visual Feedback:**  
-  - Cyan → Hover  
-  - Magenta → Click  
+- 🔍 **Real-time Hand Tracking**
+  - Detects and tracks 21 hand landmarks using MediaPipe
+  - Optimized for smooth and high FPS performance
+
+- ✌️ **Gesture Recognition**
+  - Pinch detection (thumb + index finger) for click actions
+  - Uses Euclidean distance for accurate gesture detection
+
+- 🧊 **Holographic UI**
+  - Semi-transparent keyboard using Pygame
+  - AR-like futuristic interface
+
+- ⌨️ **Full Keyboard Support**
+  - A–Z keys
+  - Spacebar
+  - Backspace
+
+- 🎨 **Visual Feedback System**
+  - **Cyan** → Hover
+  - **Magenta** → Click
 
 ---
 
-## 🚀 Tech Stack
+## 🛠️ Tech Stack
 
-| Technology | Purpose |
-| :--- | :--- |
-| Python 3.11 | Core Logic |
-| OpenCV 4.10.0 | Image Processing |
-| MediaPipe 0.10.14 | Hand Tracking |
-| Pygame | UI Rendering |
-| NumPy 1.26.4 | Calculations |
+| Technology     | Purpose                     |
+|---------------|----------------------------|
+| Python 3.11   | Core Programming           |
+| OpenCV 4.10   | Image Processing           |
+| MediaPipe     | Hand Tracking              |
+| Pygame        | UI Rendering               |
+| NumPy         | Mathematical Computations  |
 
 ---
+
+## 📂 Project Structure
