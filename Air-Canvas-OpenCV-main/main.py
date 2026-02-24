@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import mediapipe as mp
 import random
-import write
+
 
 # 1. Setup MediaPipe
 mp_hands = mp.solutions.hands
