@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import mediapipe as mp
-import pip 
 import random
 
 # 1. Setup MediaPipe
