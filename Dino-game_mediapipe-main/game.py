@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import mediapipe as mp
+import mediapipe as 
 import os
 
 # 1. Setup MediaPipe
