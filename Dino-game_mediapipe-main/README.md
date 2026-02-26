@@ -1,48 +1,46 @@
-# 🦖 Gesture-Controlled Dino Run
+# 🦖 Gesture-Controlled Dino Run  
 
-An AI-powered recreation of the classic "Chrome Dino" game. Instead of using a keyboard, players control the Dino's jumps through real-time hand gesture recognition using **Python** and **MediaPipe**.
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-007f00?style=for-the-badge&logo=google&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+An AI-powered recreation of the classic Chrome Dino game, controlled entirely through real-time hand gestures using computer vision.
 
 ---
 
-## 🕹️ How it Works
-The system uses the computer's webcam to track specific hand landmarks. By calculating the vertical distance between the **Wrist** and the **Middle Finger MCP**, the script triggers a "Jump" command whenever a specific threshold is crossed.
+## 📌 Overview  
 
-### Key Logic:
-- **Gesture Trigger**: A jump is registered when the distance between Landmark 0 (Wrist) and Landmark 9 (Middle Finger MCP) exceeds a dynamic threshold.
-- **Latency Management**: Optimized frame processing to ensure the Dino jumps the moment you move your hand.
+This project replaces traditional keyboard input with gesture-based interaction. Using a webcam, the system detects hand movements and converts them into in-game actions like jumping.
 
 ---
 
-## 📝 Mathematical Concept
+## 🎯 Features  
 
-The game relies on the Euclidean distance formula to determine hand state. If the distance $d$ between the wrist $(x_1, y_1)$ and the finger $(x_2, y_2)$ is greater than the threshold $T$, the jump function is called.
+- ✋ Gesture-based controls (no keyboard required)  
+- ⚡ Real-time hand tracking with low latency  
+- 🎮 Classic Dino endless runner gameplay  
+- 📷 Webcam-based interaction  
+- 🧠 MediaPipe-powered landmark detection  
 
-$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+---
 
-The jump condition is defined as:
+## 🕹️ How It Works  
+
+- Captures webcam video using OpenCV  
+- Detects hand landmarks using MediaPipe  
+- Tracks:
+  - Landmark 0 → Wrist  
+  - Landmark 9 → Middle Finger MCP  
+- Calculates distance between these points  
+- Triggers jump when distance exceeds threshold  
+
+---
+
+## 📐 Mathematical Model  
+
+Euclidean distance formula:
+
+\[
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\]
+
+### Jump Condition:
 ```python
 if current_dist > (initial_dist * 1.2):
     perform_jump()
-    
-    🚀 Installation & Setup
-Clone the repository:
-git clone [https://github.com/PRAMOTH-S/Dino-game_mediapipe.git](https://github.com/PRAMOTH-S/Dino-game_mediapipe.git)
-
-Install dependencies:
-pip install -r requirements.txt
-
-Launch the game:
-python dino_game.py
-
-🛠️ Tech Stack
-MediaPipe: For high-fidelity hand landmark detection.
-
-OpenCV: For camera feed processing and image flipping.
-
-Pygame: To handle the game loop, physics, and rendering.
-
-Developed by Pramoth S Give me the professional read me code for git hub
