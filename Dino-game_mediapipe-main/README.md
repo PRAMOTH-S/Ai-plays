@@ -43,15 +43,26 @@ The system captures live video using OpenCV and processes each frame with MediaP
 
 ---
 
-## 📐 Mathematical Model  
+## 📝 Mathematical Concept The game relies on the Euclidean distance formula to determine hand state. If the distance $d$ between the wrist $(x_1, y_1)$ and the finger $(x_2, y_2)$ is greater than the threshold $T$, the jump function is called. $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$ The jump condition is defined as:
+python
+if current_dist > (initial_dist * 1.2):
+    perform_jump()
+    
+    🚀 Installation & Setup
 
-The system uses Euclidean distance:
+Install dependencies:
+pip install -r requirements.txt
 
-\[
-d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
-\]
+Launch the game:
+python dino_game.py
 
-### Jump Condition:
-```python
+🛠️ Tech Stack
+MediaPipe: For high-fidelity hand landmark detection.
+
+OpenCV: For camera feed processing and image flipping.
+
+Pygame: To handle the game loop, physics, and rendering.
+
+Developed by Pramoth S 
 if current_dist > (initial_dist * 1.2):
     perform_jump()
