@@ -30,7 +30,7 @@ if current_dist > (initial_dist * 1.2):
     
     🚀 Installation & Setup
 Clone the repository:
-git clone [https://github.com/Jemelimercy/Dino-game_mediapipe.git](https://github.com/Jemelimercy/Dino-game_mediapipe.git)
+git clone [https://github.com/PRAMOTH-S/Dino-game_mediapipe.git](https://github.com/PRAMOTH-S/Dino-game_mediapipe.git)
 
 Install dependencies:
 pip install -r requirements.txt
@@ -45,4 +45,4 @@ OpenCV: For camera feed processing and image flipping.
 
 Pygame: To handle the game loop, physics, and rendering.
 
-Developed by Jemeli Mercy
+Developed by Pramoth S Give me the professional read me code for git hub
