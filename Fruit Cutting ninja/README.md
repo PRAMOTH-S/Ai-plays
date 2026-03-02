@@ -43,11 +43,8 @@ Traditional collision detection fails during fast movements because objects may 
 To solve this, we compute the **distance between a fruit's center point (P)** and the **line segment formed by finger movement (A → B)**.
 
 ### Formula:
-
-\[
-d = \frac{|(y_B - y_A)x_P - (x_B - x_A)y_P + x_B y_A - y_B x_A|}{\sqrt{(y_B - y_A)^2 + (x_B - x_A)^2}}
-\]
-
+The distance $d$ is calculated using:
+$$d = \frac{|(y_B - y_A)x_P - (x_B - x_A)y_P + x_B y_A - y_B x_A|}{\sqrt{(y_B - y_A)^2 + (x_B - x_A)^2}}$$
 ### Logic:
 
 - If:
