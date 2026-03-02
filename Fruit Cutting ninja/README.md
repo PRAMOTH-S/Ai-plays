@@ -76,3 +76,9 @@ d = \frac{|(y_B - y_A)x_P - (x_B - x_A)y_P + x_B y_A - y_B x_A|}{\sqrt{(y_B - y_
 | Pygame     | Game mechanics & UI |
 
 ---
+## 📦 Installation
+
+```bash
+git clone https://github.com/PRAMOTH S/ai-fruit-cutting-ninja-ar.git
+cd ai-fruit-ninja-ar
+pip install -r requirements.txt
