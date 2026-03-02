@@ -1,4 +1,4 @@
-# 🍎 AI Fruit-Ninja: Augmented Reality Edition 🍌
+# 🍎 AI Fruit-Ninja: Augmented Reality Edition 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
@@ -76,10 +76,3 @@ d = \frac{|(y_B - y_A)x_P - (x_B - x_A)y_P + x_B y_A - y_B x_A|}{\sqrt{(y_B - y_
 | Pygame     | Game mechanics & UI |
 
 ---
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/your-username/ai-fruit-ninja-ar.git
-cd ai-fruit-ninja-ar
-pip install -r requirements.txt
