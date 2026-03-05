@@ -66,7 +66,8 @@ Air-Mouse-Pro/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https:/github.com/PRAMOTH-S/Ai-plays.git
+git clone https://github.com/PRAMOTH-S/Ai-plays.git
+cd Ai-plays
 ```
 
 ### 2️⃣ Install Dependencies
