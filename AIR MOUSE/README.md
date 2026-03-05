@@ -1,4 +1,4 @@
-# 🖱️ Air Mouse Pro – AI Gesture-Based Virtua Mouse
+# 🖱️ Air Mouse Pro – AI Gesture-Based Virtual Mouse
 
 Air Mouse Pro is a computer vision project that enables users to control their system mouse using **hand gestures detected through a webcam**.  
 The application uses **MediaPipe Hand Tracking** to detect hand landmarks and converts finger movements into real-time mouse actions such as cursor movement, clicking, and scrolling.
