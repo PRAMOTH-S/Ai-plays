@@ -7,6 +7,16 @@ This project demonstrates the use of **Artificial Intelligence, Computer Vision,
 
 ---
 
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv&logoColor=white" />
+<img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+<img src="https://img.shields.io/github/stars/PRAMOTH-S/Ai-plays?style=for-the-badge" />
+
+</p>
+
 ## 🚀 Features
 
 - **Real-Time Cursor Control**
