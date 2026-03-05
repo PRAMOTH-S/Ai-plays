@@ -101,7 +101,7 @@ The system calculates the **Euclidean Distance** between finger landmarks.
 For example, the distance between the **Thumb (Landmark 4)** and **Index Finger (Landmark 8)** is calculated as:
 
 \[
-d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 \]
 
 If the distance falls below a threshold value, the system triggers a **mouse click event**.
