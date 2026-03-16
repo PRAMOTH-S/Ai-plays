@@ -1,4 +1,4 @@
-# 🎭 AI-Powered Presentation Air Clicke
+# 🎭 AI-Powered Presentation Air Clicker.
 
 <p align="center">
   Control your presentations using **hand gestures in mid-air**.  
