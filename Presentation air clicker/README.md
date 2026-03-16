@@ -118,7 +118,7 @@ Webcam → OpenCV → MediaPipe → Gesture Detection → PyAutoGUI → Presenta
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/PRAMOTH-S/Air-Clicker.git
+https://github.com/PRAMOTH-S/Ai-plays/tree/24c91e50f6a5330a6fa60472bbe03530ed3bfd0b/Presentation%20air%20clicker
 cd Air-Clicker
 ```
 
