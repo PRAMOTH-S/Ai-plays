@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import pygame
 import math
-import numpy as n
+import numpy as np
 
 # Initialize MediaPipe
 mp_hands = mp.solutions.hands
