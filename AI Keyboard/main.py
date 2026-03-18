@@ -1,4 +1,4 @@
-import cv
+import cv2
 import mediapipe as mp
 import pygame
 import math
