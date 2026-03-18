@@ -1,5 +1,5 @@
 import cv2
-import mediapipe as mp
+import mediapipe as m
 import pygame
 import math
 import numpy as np
