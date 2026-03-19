@@ -1,4 +1,4 @@
-# ✋ Air Canvas using MediaPipe & Pytho
+# ✋ Air Canvas using MediaPipe & Python
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
