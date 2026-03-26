@@ -1,4 +1,4 @@
-# ⌨️ Air-Typing Keyboard (AI-Powered Virtual UI).
+# ⌨️ Air-Typing Keyboard (AI-Powered Virtual UI)
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.10-green)
